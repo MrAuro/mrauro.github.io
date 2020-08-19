@@ -1,7 +1,27 @@
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 12.woff') format('woff');
+    }
+
 h1 {
     text-align: center;
 }
 
 p {
     text-align: center;
+}
+
+body {
+    background-color: #282C34
+}
+
+.header {
+    padding: 1px;
+    text-align: center;
+    background: #21252B;
+    color: white;
+    font-size: 30px;
+    font-family: Bahnschrift Regular;
 }
