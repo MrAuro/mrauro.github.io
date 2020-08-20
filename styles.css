@@ -30,3 +30,12 @@ body {
     max-width:50%;
     max-height:50%;
 }
+
+.w3l-main-banner .banner-view {
+    background: url(./assets/background.jpg) no-repeat right;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    z-index: 0;
+    display: grid;
+    align-items: center; }
