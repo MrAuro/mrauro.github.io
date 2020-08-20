@@ -18,10 +18,15 @@ body {
 }
 
 .header {
-    padding: 1px;
+    padding: .02%;
     text-align: center;
     background: #21252B;
     color: white;
     font-size: 30px;
     font-family: Bahnschrift Regular;
+}
+
+.img-resize {
+    max-width:50%;
+    max-height:50%;
 }
